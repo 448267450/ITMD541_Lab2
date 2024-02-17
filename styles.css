@@ -1,7 +1,7 @@
 /* Flexbox Part 1 */
 
 #flex-section1 ul {
-	display: flex; 
+	display: flex;
 	justify-content: space-around;
 	list-style-type: none;
 	padding-left: 0;
@@ -17,22 +17,33 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 #flex-section2 li {
-
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 #flex-section2 .item1 {
+  
+
 
 }
 
 #flex-section2 .item2 {
+	order: 3;
+	
 
 }
 
 #flex-section2 .item3 {
+
+	order: 2;
+	
 
 }
 
@@ -41,60 +52,40 @@
 
 /* Flexbox Part 3 */
 
-#flex-section3 .box {
+#flex-section3 .box {}
 
-}
-
-#flex-section3 .tags ul {
-
-}
+#flex-section3 .tags ul {}
 
 /* end Flexbox Part 3 */
 
 
 /* Grid Part 1 */
 
-#grid-section1 .grid {
-
-}
+#grid-section1 .grid {}
 
 /* end Grid Part 1 */
 
 
 /* Grid Part 2 */
 
-#grid-section2 .gridboxblue {
+#grid-section2 .gridboxblue {}
 
-}
-
-#grid-section2 .gridboxred {
-
-}
+#grid-section2 .gridboxred {}
 
 /* end Grid Part 2 */
 
 
 /* Grid Part 3 */
 
-#grid-section3 .grid {
+#grid-section3 .grid {}
 
-}
+#grid-section3 .box1 {}
 
-#grid-section3 .box1 {
+#grid-section3 .box2 {}
 
-}
+#grid-section3 .box3 {}
 
-#grid-section3 .box2 {
-
-}
-
-#grid-section3 .box3 {
-
-}
-
-#grid-section3 .box4 {
-
-}
+#grid-section3 .box4 {}
 
 /* end Grid Part 3 */
 

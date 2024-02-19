@@ -141,6 +141,9 @@
 	color: #000;
 	padding: 20px;
 	text-decoration: none;
+	transition-property: color, background-color;
+	transition-duration: 3s;
+
 
 
 }
@@ -148,8 +151,14 @@
 #transition-section .box a:hover {
 	background-color: #cc0000;
 	color: #fff;
+	transition: color 0.5s, background-color 0.5s;
+
+
 
 
 }
+
+
+
 
 /* end Transition Part */
